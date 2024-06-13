@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Achmad Fauzi Hamibowo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+</head>
+
+<body>
+    <div class="container">
+        <header class="center-align">
+            <img src="img/user.jpg" alt="Profile Picture of Achmad Fauzi Hamibowo"
+                class="circle responsive-img profile-img">
+            <h1>Achmad Fauzi Hamibowo</h1>
+            <p>
+                <a href="https://wa.me/6285155124110" aria-label="WhatsApp Number" class="contact-link" target="_blank">
+                    <i class="fab fa-whatsapp"></i> 085155124110
+                </a>
+                |
+                <a href="mailto:achmadfhbw.work@gmail.com" aria-label="Email Address" class="contact-link"
+                    target="_blank">
+                    <i class="far fa-envelope"></i> achmadfhbw.work@gmail.com
+                </a>
+                |
+                <a href="https://www.google.com/maps?q=Cilangkap,Depok,Jawa+Barat" aria-label="Google Maps"
+                    class="contact-link" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i> Cilangkap, Depok, Jawa Barat
+                </a>
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/achmadfhbw" aria-label="LinkedIn Profile" target="_blank">
+                    <i class="fab fa-linkedin fa"></i>
+                </a>
+                <a href="https://www.facebook.com/achmadfhbw" aria-label="Facebook Profile" target="_blank">
+                    <i class="fab fa-facebook fa"></i>
+                </a>
+                <a href="https://www.instagram.com/achmadfhbw" aria-label="Instagram Profile" target="_blank">
+                    <i class="fab fa-instagram fa"></i>
+                </a>
+            </div>
+            <div class="language-switcher">
+                <select id="language-select">
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="en" selected>English</option>
+                </select>
+            </div>
+        </header>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>With a Bachelor's degree in Educational Management from Jakarta State University with a GPA of 3.64, I
+                have one year of experience as an academic staff at a school specializing in student administration.
+                During this time, I have managed and improved the efficiency of administrative processes, contributing
+                to supporting various activities related to students in the school environment.</p>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <h3>Jakarta State University</h3>
+            <p>Bachelor of Education in Educational Management with a GPA of 3.64</p>
+            <p>September 2017 - August 2022 | Rawamangun, East Jakarta</p>
+            <ul>
+                <li>Able to apply knowledge and skills in curriculum development, financial management, and educational
+                    facilities to improve educational outcomes.</li>
+                <li>Gained experience managing a cooperative business through my involvement in the Jakarta State
+                    University Student Cooperative.</li>
+                <li>Won the Jakarta State University Entrepreneurship Competition with a nomination for the best startup
+                    at Jakarta State University with a startup called Sponshorin, which functions to find potential
+                    sponsors and seekers of sponsors, especially for activities that require sponsors.</li>
+            </ul>
+        </section>
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <h3>Depok City Public High School 7 (Honorary)</h3>
+            <p>Student Affairs Staff</p>
+            <p>November 2022 – June 2024 | Depok, West Java</p>
+            <ul>
+                <li>As a Student Affairs Staff, I am responsible for ensuring the smooth operation of the school, from
+                    managing student attendance records, organizing class schedules, to issuing leave certificates.</li>
+                <li>I also support teaching and learning activities, such as capturing important student moments,
+                    recording their achievements, and facilitating student transfers between schools.</li>
+            </ul>
+        </section>
+        <section class="internship-experience">
+            <h2>Internship Experience</h2>
+            <h3>BPSDM Ministry of Law and Human Rights (Internship)</h3>
+            <p>Technical and Leadership Training</p>
+            <p>August 2020 - September 2020 | Depok, West Java</p>
+            <ul>
+                <li>Managed training participants' data through the Human Resource Information System (HRIS), ensuring
+                    that participants' data can be accessed easily and accurately.</li>
+                <li>Managed participants' training registration data and documents online, ensuring a smooth and
+                    efficient registration process.</li>
+                <li>Compiled scheduling and attendance reports regularly and on time, ensuring smooth training
+                    activities.</li>
+                <li>Responsible for managing participants' training certificates to be sent throughout Indonesia so that
+                    participants can receive certificates on time.</li>
+            </ul>
+        </section>
+        <section class="additional-info">
+            <h2>Additional Information</h2>
+            <ul>
+                <li>Language Skills: Native Indonesian; Professional Proficiency in English Speaking and Writing</li>
+                <li>Certificates: IT Support Google from Coursera; Professional Google IT Support from Dicoding
+                    Indonesia, Professional Academy Digital Talent Scholarship 2022 – Linux, Ministry of Communication
+                    and Information Technology of the Republic of Indonesia</li>
+                <li>Microsoft Office: Experienced in Word, PowerPoint, and Excel</li>
+                <li>Skills: Problem-solving; Logical Thinking; Verbal and Written Communication; Conflict Resolution
+                </li>
+            </ul>
+        </section>
+        <a href="download.html" class="download-cv-button" target="_blank">
+            <i class="fas fa-download"></i> Download CV
+        </a>
+    </div>
+    <script>
+        document.getElementById('language-select').addEventListener('change', function () {
+            if (this.value === 'id') {
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+</body>
+
+</html>
